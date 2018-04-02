@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>FadeIn() | FadeOut() | FadeTo() | FadeToggle()</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+	</head>
+	<body>
+
+		<script>
+			$(document).ready(function() {
+				$("#fadein").click(function() {
+					$("h2").show('slow')
+				});
+
+				$("#fadeout").click(function() {
+					$("h2").fadeOut('fast');
+				});
+
+				$("#fadeto").click(function() {
+					$("h2").fadeTo(1000,0.4);
+				});
+
+				$("#fadetoggle").click(function() {
+					$("h2").fadeToggle(1000);
+				});
+			});
+			
+		</script>
+			
+		<button id="fadein">FadeIn</button>
+		<button id="fadeout">FadeOut</button>
+		<button id="fadeto">FadeTo</button>
+		<button id="fadetoggle">FadeToggle</button>
+
+
+		<h2>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.</h2>
+			
+	</body>
+</html>

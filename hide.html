@@ -2,34 +2,41 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>JQUery Tutorial</title>
+		<title>Hide() | Show() | Toggle()</title>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	</head>
 	<body>
 		<script>
+
 		$(document).ready(function(){
+
 		//Hide
 		$("#hide").click(function(){
 		$("h2").hide("slow");
 		});
+
 		//Show
 		$("#show").click(function(){
 		$("h2").show("slow");
 		});
+
 		//Toggle
 		$("#toggle").click(function(){
 		$("h2").toggle("slow");
 		});
 		});
+
 		</script>
+		
+		<button id="hide">Hide</button>
+		<button id="show">Show</button>
+		<button id="toggle">Toggle</button>
+		
 		<h2>
 		Bangladesh is undergoing substantial economic and social change, and this will intensify in the coming decades. Fundamental forces are at play, involving rapid industrialization, structural change in the economy, and substantial rural-urban migration. These processes bring a host of developmental pressures, and a range of potential inequities. As the country moves to middle-income status, the differences in income and living conditions have tended to widen. This is a by-product of the growth process, Bangladesh’s centralized economic model, and its difficult geography. It is vital these inequalities are addressed if poverty is to be further reduced, and a host of future problems associated with social exclusion avoided.
 		Environmental pressures, exacerbated by climate change, remain significant and could easily worsen if remedial actions are not taken at the local and global level. While the population is expected to stabilize at around 200 million, growing wealth and migration will place further strain on ecosystems and the living environment.
 		Providing better social services, especially in health and education, is also key to Bangladesh’s continuing ability to meet core welfare objectives. While the country has done well in meeting its headline MDG obligations, the quality and durability of some outcomes remains weak. Major service delivery concerns must be addressed by more effectively improving the quality of governance in Bangladesh. As inequalities get more profound and complex, there is a need to look beyond aggregate data, to see whether disadvantaged groups actually have access to services, as well as how performance varies geographically.
 		</h2>
-		<button id="hide">Hide</button>
-		<button id="show">Show</button>
-		<button id="toggle">Toggle</button>
 		
 	</body>
 </html>
