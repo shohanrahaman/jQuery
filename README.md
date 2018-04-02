@@ -1,3 +1,3 @@
 # jQuery Effects
---hide()
+-hide()
 
