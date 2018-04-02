@@ -1,6 +1,6 @@
 # jQuery Effects
-##hide()
--show()
+*hide()
+*show()
 -toggle()
 -fadeIn()
 -fadeOut()
